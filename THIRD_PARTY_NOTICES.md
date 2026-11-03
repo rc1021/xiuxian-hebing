@@ -8,6 +8,7 @@
 | eventemitter3（內含於 Phaser 打包檔） | 5.0.4 | MIT | 同上 |
 | LXGW WenKai TC（霞鶩文楷 TC） | Google Fonts 線上載入 | SIL Open Font License 1.1 | `index.html` 由 fonts.googleapis.com 載入 |
 | Noto Sans TC | Google Fonts 線上載入 | SIL Open Font License 1.1 | 同上 |
+| esbuild（npm 開發依賴，只用來打包網頁試玩版，不包含在遊戲內） | 0.24.2 | MIT | `tools/build_web.sh` 使用；`node_modules/esbuild` |
 
 > 字型：改成把字型檔打包進 App 時，要一併附上 OFL 1.1 全文（https://openfontlicense.org），並在此表改寫成檔案位置。OFL 允許嵌入與商用，但不可單獨販售字型檔。
 
@@ -44,6 +45,32 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 The MIT License (MIT)
 
 Copyright (c) 2014 Arnout Kazemier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## esbuild
+
+```
+MIT License
+
+Copyright (c) 2020 Evan Wallace
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
