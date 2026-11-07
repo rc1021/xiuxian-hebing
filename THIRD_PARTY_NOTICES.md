@@ -15,7 +15,7 @@
 
 > 字型：App 版已把字型檔打包進 App（2026-11-07），OFL 1.1 全文附在本檔文末。OFL 允許嵌入與商用、可裁字（裁過的仍用原字型名稱發布屬「未修改字形」的子集，本作只在 App 內嵌使用，不單獨散布字型檔），但不可單獨販售字型檔。
 
-**App 原生專案圖檔（不是第三方素材，登記在這裡讓檢查程式認得）**：`android/app/src/main/res/` 的 ic_launcher.png、ic_launcher_round.png、ic_launcher_foreground.png、splash.png，與 `ios/App/App/Assets.xcassets/` 的 AppIcon-512@2x.png、splash-2732x2732.png、splash-2732x2732-1.png、splash-2732x2732-2.png。全部由 `tools/app/icons.py` 從本作已審過的 Logo（`art/figma/logo/logo_icon.png`、`logo_v.png`，docs/06 logo_emblem）縮放置中、加宣紙或遊戲底色產生，覆蓋 Capacitor 產生的預設圖；封測用，正式上架前若要專門的商店圖示交美術另畫（docs/上架研究/18-App封測環境.md §5）。
+**App 原生專案圖檔（不是第三方素材，登記在這裡讓檢查程式認得）**：`android/app/src/main/res/` 的 ic_launcher.png、ic_launcher_round.png、ic_launcher_foreground.png、splash.png，與 `ios/App/App/Assets.xcassets/` 的 AppIcon-512@2x.png、splash-2732x2732.png、splash-2732x2732-1.png、splash-2732x2732-2.png。全部由 `tools/app/icons.py` 產生、覆蓋 Capacitor 產生的預設圖：圖示（2026-11-07 起）＝`art/app_icon.py` 用本作主角林守拙煉氣期表情原圖（`art/figma/face_shouzhuo_s1.png`，Figma AI，docs/06）的頭＋Logo 的裂開葫蘆掛件（`art/logo_gourd.py`，取自介面掛件 `ui_charms.png`）＋程式畫的漸層與靈光點排成；啟動畫面＝直式 Logo（`art/figma/logo/logo_v.png`）加遊戲底色；封測用，正式上架前若要專門的商店圖示交美術另畫（docs/上架研究/18-App封測環境.md §5）。
 
 ---
 
